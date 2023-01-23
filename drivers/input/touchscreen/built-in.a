@@ -1,0 +1,27 @@
+!<thin>
+//                                              354       `
+of_touchscreen.o/
+focaltech_touch/focaltech_core.o/
+focaltech_touch/focaltech_esdcheck.o/
+focaltech_touch/focaltech_ex_mode.o/
+focaltech_touch/focaltech_gesture.o/
+focaltech_touch/focaltech_point_report_check.o/
+focaltech_touch/focaltech_i2c.o/
+focaltech_touch/focaltech_sensor.o/
+imx6ul_tsc.o/
+gt9xx/gt9xx.o/
+gt9xx/gt9xx_update.o/
+gt9xx/goodix_tool.o/
+
+/0              0           0     0     644     5940      `
+/18             0           0     0     644     15552     `
+/52             0           0     0     644     828       `
+/90             0           0     0     644     2100      `
+/127            0           0     0     644     828       `
+/164            0           0     0     644     840       `
+/212           /0           0     0     644     3536      `
+/245            0           0     0     644     828       `
+/281            0           0     0     644     10864     `
+/295            0           0     0     644     42576     `
+/310            0           0     0     644     29508     `
+/332            0           0     0     644     9684      `

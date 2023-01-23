@@ -1,0 +1,197 @@
+!<thin>
+//                                              1980      `
+sound_core.o/
+core/sound.o/
+core/init.o/
+core/memory.o/
+core/control.o/
+core/misc.o/
+core/device.o/
+core/info.o/
+core/vmaster.o/
+core/ctljack.o/
+core/jack.o/
+core/timer.o/
+core/pcm.o/
+core/pcm_native.o/
+core/pcm_lib.o/
+core/pcm_misc.o/
+core/pcm_memory.o/
+core/memalloc.o/
+core/pcm_timer.o/
+core/pcm_drm_eld.o/
+core/pcm_iec958.o/
+core/pcm_dmaengine.o/
+core/rawmidi.o/
+pci/ac97/ac97_codec.o/
+pci/ac97/ac97_pcm.o/
+pci/ac97/ac97_proc.o/
+soc/soc-core.o/
+soc/soc-dapm.o/
+soc/soc-jack.o/
+soc/soc-utils.o/
+soc/soc-dai.o/
+soc/soc-component.o/
+soc/soc-pcm.o/
+soc/soc-io.o/
+soc/soc-devres.o/
+soc/soc-ops.o/
+soc/soc-generic-dmaengine-pcm.o/
+soc/soc-ac97.o/
+soc/codecs/ac97.o/
+soc/codecs/cs42xx8.o/
+soc/codecs/cs42xx8-i2c.o/
+soc/codecs/es8328.o/
+soc/codecs/es8328-i2c.o/
+soc/codecs/es8328-spi.o/
+soc/codecs/fsl_mqs.o/
+soc/codecs/mc13783.o/
+soc/codecs/hdmi-codec.o/
+soc/codecs/sgtl5000.o/
+soc/codecs/si476x.o/
+soc/codecs/tlv320aic23.o/
+soc/codecs/tlv320aic23-i2c.o/
+soc/codecs/tlv320aic3x.o/
+soc/codecs/wm8960.o/
+soc/codecs/wm8962.o/
+soc/codecs/wm8994.o/
+soc/codecs/wm8958-dsp2.o/
+soc/codecs/wm_hubs.o/
+soc/codecs/rpmsg_wm8960.o/
+soc/codecs/rpmsg_cs42xx8.o/
+soc/codecs/rpmsg_ak4497.o/
+soc/generic/simple-card-utils.o/
+soc/generic/simple-card.o/
+soc/fsl/fsl_asrc.o/
+soc/fsl/fsl_asrc_dma.o/
+soc/fsl/fsl_sai.o/
+soc/fsl/fsl_sai_sysfs.o/
+soc/fsl/fsl_ssi.o/
+soc/fsl/fsl_ssi_dbg.o/
+soc/fsl/fsl_spdif.o/
+soc/fsl/fsl_esai.o/
+soc/fsl/fsl_utils.o/
+soc/fsl/fsl_hdmi.o/
+soc/fsl/fsl_rpmsg_i2s.o/
+soc/fsl/imx-ssi.o/
+soc/fsl/imx-audmux.o/
+soc/fsl/imx-pcm-fiq.o/
+soc/fsl/imx-pcm-dma.o/
+soc/fsl/imx-pcm-dma-v2.o/
+soc/fsl/imx-hdmi-dma.o/
+soc/fsl/hdmi_pcm.o/
+soc/fsl/imx-pcm-rpmsg.o/
+soc/fsl/eukrea-tlv320.o/
+soc/fsl/imx-es8328.o/
+soc/fsl/imx-cs42888.o/
+soc/fsl/imx-sgtl5000.o/
+soc/fsl/imx-wm8958.o/
+soc/fsl/imx-wm8960.o/
+soc/fsl/imx-wm8962.o/
+soc/fsl/imx-sii902x.o/
+soc/fsl/imx-rpmsg.o/
+soc/fsl/imx-spdif.o/
+soc/fsl/imx-mc13783.o/
+soc/fsl/imx-mqs.o/
+soc/fsl/imx-si476x.o/
+soc/fsl/imx-hdmi.o/
+ac97_bus.o/
+last.o/
+
+/0              0           0     0     644     3696      `
+/14             0           0     0     644     12588     `
+/28             0           0     0     644     22696     `
+/41             0           0     0     644     3216      `
+/56             0           0     0     644     30408     `
+/72             0           0     0     644     3124      `
+/85             0           0     0     644     4920      `
+/100            0           0     0     644     16220     `
+/113            0           0     0     644     8168      `
+/129            0           0     0     644     2696      `
+/145            0           0     0     644     7000      `
+/158            0           0     0     644     35880     `
+/172            0           0     0     644     21940     `
+/184            0           0     0     644     48188     `
+/203            0           0     0     644     39420     `
+/219            0           0     0     644     11944     `
+/236            0           0     0     644     10400     `
+/255            0           0     0     644     4340      `
+/272            0           0     0     644     3512      `
+/290            0           0     0     644     3148      `
+/310            0           0     0     644     3276      `
+/329           /0           0     0     644     10280     `
+/351            0           0     0     644     34832     `
+/367            0           0     0     644     119616    `
+/390            0           0     0     644     10340     `
+/411            0           0     0     644     17272     `
+/433            0           0     0     644     62976     `
+/449            0           0     0     644     69204     `
+/465            0           0     0     644     11696     `
+/481            0           0     0     644     7196      `
+/498            0           0     0     644     9152      `
+/513           /0           0     0     644     13440     `
+/534            0           0     0     644     41620     `
+/549            0           0     0     644     6948      `
+/563            0           0     0     644     3972      `
+/581            0           0     0     644     19152     `
+/596            0           0     0     644     10336     `
+/629            0           0     0     644     10440     `
+/645            0           0     0     644     5716      `
+/664            0           0     0     644     25128     `
+/686            0           0     0     644     3900      `
+/712            0           0     0     644     27992     `
+/733            0           0     0     644     4176      `
+/758            0           0     0     644     3852      `
+/783            0           0     0     644     8580      `
+/805            0           0     0     644     27256     `
+/827            0           0     0     644     12988     `
+/852            0           0     0     644     32540     `
+/875            0           0     0     644     6804      `
+/896            0           0     0     644     14480     `
+/922            0           0     0     644     4076      `
+/952            0           0     0     644     69012     `
+/978            0           0     0     644     38720     `
+/999            0           0     0     644     87368     `
+/1020           0           0     0     644     103572    `
+/1041           0           0     0     644     13812     `
+/1067           0           0     0     644     58392     `
+/1089           0           0     0     644     42008     `
+/1116          /0           0     0     644     23776     `
+/1144           0           0     0     644     25244     `
+/1171           0           0     0     644     20016     `
+/1204           0           0     0     644     13180     `
+/1231           0           0     0     644     42148     `
+/1251           0           0     0     644     9272      `
+/1275           0           0     0     644     32120     `
+/1294          /0           0     0     644     8488      `
+/1319           0           0     0     644     21936     `
+/1338           0           0     0     644     4252      `
+/1361           0           0     0     644     24116     `
+/1382           0           0     0     644     23304     `
+/1402           0           0     0     644     3296      `
+/1423           0           0     0     644     14260     `
+/1443          /0           0     0     644     10936     `
+/1468           0           0     0     644     9556      `
+/1487           0           0     0     644     11876     `
+/1509           0           0     0     644     7620      `
+/1532           0           0     0     644     2536      `
+/1555           0           0     0     644     5940      `
+/1581           0           0     0     644     13844     `
+/1605           0           0     0     644     1252      `
+/1625          /0           0     0     644     14036     `
+/1650          /0           0     0     644     8152      `
+/1675           0           0     0     644     8580      `
+/1697           0           0     0     644     12956     `
+/1720           0           0     0     644     8076      `
+/1744           0           0     0     644     14272     `
+/1766           0           0     0     644     15964     `
+/1788           0           0     0     644     16668     `
+/1810           0           0     0     644     6388      `
+/1833           0           0     0     644     7248      `
+/1854           0           0     0     644     5700      `
+/1875           0           0     0     644     6476      `
+/1898           0           0     0     644     8984      `
+/1917           0           0     0     644     7280      `
+/1939           0           0     0     644     5840      `
+/1959           0           0     0     644     4244      `
+/1971           0           0     0     644     1952      `

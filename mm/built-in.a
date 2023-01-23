@@ -1,0 +1,123 @@
+!<thin>
+//                                              730       `
+filemap.o/
+mempool.o/
+oom_kill.o/
+fadvise.o/
+maccess.o/
+page-writeback.o/
+readahead.o/
+swap.o/
+truncate.o/
+vmscan.o/
+shmem.o/
+util.o/
+mmzone.o/
+vmstat.o/
+backing-dev.o/
+mm_init.o/
+mmu_context.o/
+percpu.o/
+slab_common.o/
+compaction.o/
+vmacache.o/
+interval_tree.o/
+list_lru.o/
+workingset.o/
+debug.o/
+gup.o/
+highmem.o/
+memory.o/
+mincore.o/
+mlock.o/
+mmap.o/
+mmu_gather.o/
+mprotect.o/
+mremap.o/
+msync.o/
+page_vma_mapped.o/
+pagewalk.o/
+pgtable-generic.o/
+rmap.o/
+vmalloc.o/
+process_vm_access.o/
+page_alloc.o/
+init-mm.o/
+memblock.o/
+madvise.o/
+page_io.o/
+swap_state.o/
+swapfile.o/
+swap_slots.o/
+dmapool.o/
+slub.o/
+migrate.o/
+page_counter.o/
+memcontrol.o/
+vmpressure.o/
+page_isolation.o/
+early_ioremap.o/
+cma.o/
+frame_vector.o/
+memfd.o/
+
+/0              0           0     0     644     71728     `
+/11             0           0     0     644     11748     `
+/22             0           0     0     644     18272     `
+/34             0           0     0     644     3944      `
+/45             0           0     0     644     4984      `
+/56             0           0     0     644     36564     `
+/74             0           0     0     644     8544      `
+/87             0           0     0     644     23644     `
+/95             0           0     0     644     16136     `
+/107            0           0     0     644     40608     `
+/117            0           0     0     644     52524     `
+/126            0           0     0     644     19052     `
+/134            0           0     0     644     1608      `
+/144            0           0     0     644     36216     `
+/154            0           0     0     644     19880     `
+/169            0           0     0     644     2912      `
+/180            0           0     0     644     2936      `
+/195            0           0     0     644     32540     `
+/205            0           0     0     644     22696     `
+/220            0           0     0     644     25004     `
+/234            0           0     0     644     1412      `
+/246           /0           0     0     644     5020      `
+/263            0           0     0     644     11060     `
+/275            0           0     0     644     7688      `
+/289            0           0     0     644     6444      `
+/298            0           0     0     644     17132     `
+/305            0           0     0     644     9292      `
+/316            0           0     0     644     48604     `
+/326            0           0     0     644     4232      `
+/337            0           0     0     644     10648     `
+/346            0           0     0     644     35868     `
+/354            0           0     0     644     3152      `
+/368            0           0     0     644     5212      `
+/380            0           0     0     644     6768      `
+/390            0           0     0     644     2124      `
+/399            0           0     0     644     2424      `
+/418            0           0     0     644     2888      `
+/430            0           0     0     644     2372      `
+/449            0           0     0     644     18164     `
+/457            0           0     0     644     50580     `
+/468            0           0     0     644     4188      `
+/489            0           0     0     644     69660     `
+/503            0           0     0     644     1472      `
+/514            0           0     0     644     26900     `
+/526            0           0     0     644     9996      `
+/537            0           0     0     644     8160      `
+/548            0           0     0     644     14768     `
+/562            0           0     0     644     37764     `
+/574            0           0     0     644     6428      `
+/588            0           0     0     644     8740      `
+/599            0           0     0     644     43564     `
+/607            0           0     0     644     18588     `
+/618            0           0     0     644     3908      `
+/634            0           0     0     644     84944     `
+/648            0           0     0     644     4668      `
+/662            0           0     0     644     4464      `
+/680           /0           0     0     644     5844      `
+/697            0           0     0     644     7940      `
+/704            0           0     0     644     7152      `
+/720            0           0     0     644     4900      `

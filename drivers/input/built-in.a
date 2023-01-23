@@ -1,0 +1,67 @@
+!<thin>
+//                                              836       `
+input.o/
+input-compat.o/
+input-mt.o/
+input-poller.o/
+ff-core.o/
+input-polldev.o/
+matrix-keymap.o/
+input-leds.o/
+evdev.o/
+keyboard/atkbd.o/
+keyboard/gpio_keys.o/
+keyboard/imx_keypad.o/
+keyboard/rpmsg-keys.o/
+keyboard/snvs_pwrkey.o/
+touchscreen/of_touchscreen.o/
+touchscreen/focaltech_touch/focaltech_core.o/
+touchscreen/focaltech_touch/focaltech_esdcheck.o/
+touchscreen/focaltech_touch/focaltech_ex_mode.o/
+touchscreen/focaltech_touch/focaltech_gesture.o/
+touchscreen/focaltech_touch/focaltech_point_report_check.o/
+touchscreen/focaltech_touch/focaltech_i2c.o/
+touchscreen/focaltech_touch/focaltech_sensor.o/
+touchscreen/imx6ul_tsc.o/
+touchscreen/gt9xx/gt9xx.o/
+touchscreen/gt9xx/gt9xx_update.o/
+touchscreen/gt9xx/goodix_tool.o/
+misc/mma8450.o/
+misc/mpl3115.o/
+misc/fxls8471.o/
+misc/fxls8471_i2c.o/
+misc/isl29023.o/
+misc/rpmsg_input.o/
+
+/0              0           0     0     644     49984     `
+/9              0           0     0     644     3368      `
+/25             0           0     0     644     9420      `
+/37             0           0     0     644     6664      `
+/53             0           0     0     644     6708      `
+/64            /0           0     0     644     8632      `
+/81            /0           0     0     644     4768      `
+/98             0           0     0     644     6060      `
+/112            0           0     0     644     19468     `
+/121            0           0     0     644     25372     `
+/139            0           0     0     644     15808     `
+/161            0           0     0     644     9300      `
+/184            0           0     0     644     8120      `
+/207            0           0     0     644     8332      `
+/231            0           0     0     644     5940      `
+/261            0           0     0     644     15552     `
+/307            0           0     0     644     828       `
+/357            0           0     0     644     2100      `
+/406            0           0     0     644     828       `
+/455            0           0     0     644     840       `
+/515           /0           0     0     644     3536      `
+/560            0           0     0     644     828       `
+/608            0           0     0     644     10864     `
+/634            0           0     0     644     42576     `
+/661            0           0     0     644     29508     `
+/695            0           0     0     644     9684      `
+/728            0           0     0     644     7944      `
+/744            0           0     0     644     8400      `
+/760            0           0     0     644     13892     `
+/777            0           0     0     644     4476      `
+/798            0           0     0     644     15756     `
+/815            0           0     0     644     10668     `

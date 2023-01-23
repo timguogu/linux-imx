@@ -1,0 +1,27 @@
+!<thin>
+//                                              176       `
+dmaengine.o/
+virt-dma.o/
+of-dma.o/
+fsl-edma.o/
+fsl-edma-common.o/
+imx-sdma.o/
+mxs-dma.o/
+ipu/ipu_irq.o/
+ipu/ipu_idmac.o/
+pxp/pxp_dma_v2.o/
+pxp/pxp_dma_v3.o/
+pxp/pxp_device.o/
+
+/0              0           0     0     644     28692     `
+/13             0           0     0     644     5596      `
+/25             0           0     0     644     8548      `
+/35             0           0     0     644     13324     `
+/47             0           0     0     644     18500     `
+/66             0           0     0     644     29680     `
+/78             0           0     0     644     13256     `
+/89             0           0     0     644     6196      `
+/104            0           0     0     644     16792     `
+/121            0           0     0     644     19628     `
+/139            0           0     0     644     75944     `
+/157            0           0     0     644     12532     `

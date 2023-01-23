@@ -1,0 +1,9 @@
+!<thin>
+//                                              48        `
+rpmsg_core.o/
+virtio_rpmsg_bus.o/
+imx_rpmsg.o/
+
+/0              0           0     0     644     16224     `
+/14             0           0     0     644     15328     `
+/34             0           0     0     644     9432      `

@@ -1,0 +1,16 @@
+!<thin>
+//                                              224       `
+intersil/hostap/hostap_80211_rx.o/
+intersil/hostap/hostap_80211_tx.o/
+intersil/hostap/hostap_ap.o/
+intersil/hostap/hostap_info.o/
+intersil/hostap/hostap_ioctl.o/
+intersil/hostap/hostap_main.o/
+intersil/hostap/hostap_proc.o/
+/0              0           0     0     644     15372     `
+/35             0           0     0     644     9316      `
+/70             0           0     0     644     49900     `
+/99             0           0     0     644     8788      `
+/130            0           0     0     644     41864     `
+/162            0           0     0     644     27988     `
+/193            0           0     0     644     11420     `

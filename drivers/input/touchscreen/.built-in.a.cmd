@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.a := rm -f drivers/input/touchscreen/built-in.a; arm-none-linux-gnueabihf-ar cDPrST drivers/input/touchscreen/built-in.a drivers/input/touchscreen/of_touchscreen.o drivers/input/touchscreen/focaltech_touch/built-in.a drivers/input/touchscreen/imx6ul_tsc.o drivers/input/touchscreen/gt9xx/built-in.a

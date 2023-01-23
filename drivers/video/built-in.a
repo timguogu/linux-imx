@@ -1,0 +1,114 @@
+!<thin>
+//                                              1296      `
+hdmi.o/
+console/dummycon.o/
+logo/logo.o/
+logo/logo_linux_mono.o/
+logo/logo_linux_vga16.o/
+logo/logo_linux_clut224.o/
+backlight/lcd.o/
+backlight/l4f00242t03.o/
+backlight/platform_lcd.o/
+backlight/backlight.o/
+backlight/generic_bl.o/
+backlight/gpio_backlight.o/
+backlight/pwm_bl.o/
+fbdev/core/fb_cmdline.o/
+fbdev/core/fb_notify.o/
+fbdev/core/fbmem.o/
+fbdev/core/fbmon.o/
+fbdev/core/fbcmap.o/
+fbdev/core/fbsysfs.o/
+fbdev/core/modedb.o/
+fbdev/core/fbcvt.o/
+fbdev/core/fb_defio.o/
+fbdev/core/fbcon.o/
+fbdev/core/bitblit.o/
+fbdev/core/softcursor.o/
+fbdev/core/cfbfillrect.o/
+fbdev/core/cfbcopyarea.o/
+fbdev/core/cfbimgblt.o/
+fbdev/core/sysfillrect.o/
+fbdev/core/syscopyarea.o/
+fbdev/core/sysimgblt.o/
+fbdev/core/fb_sys_fops.o/
+fbdev/mxc/mxc_dispdrv.o/
+fbdev/mxc/mipi_dsi_northwest.o/
+fbdev/mxc/mxc_edid.o/
+fbdev/mxc/adv7535.o/
+fbdev/mxc/mxcfb_hx8363_wvga.o/
+fbdev/mxc/mxcfb_hx8369_wvga.o/
+fbdev/mxc/mxcfb_rm68200_wxga.o/
+fbdev/mxc/mxcfb_rm68191_qhd.o/
+fbdev/mxc/mipi_dsi_samsung.o/
+fbdev/mxc/mipi_dsi.o/
+fbdev/mxc/ldb.o/
+fbdev/mxc/mxsfb_sii902x.o/
+fbdev/mxc/mxsfb_sii902x_audio.o/
+fbdev/mxc/mxc_hdmi.o/
+fbdev/mxc/mxc_dcic.o/
+fbdev/mxc/mxc_ipuv3_fb.o/
+fbdev/mxc/mxc_epdc_fb.o/
+fbdev/mxc/mxc_epdc_v2_fb.o/
+fbdev/mx3fb.o/
+fbdev/mxsfb.o/
+display_timing.o/
+videomode.o/
+of_display_timing.o/
+of_videomode.o/
+/0              0           0     0     644     31104     `
+/8              0           0     0     644     3016      `
+/28             0           0     0     644     3344      `
+/41             0           0     0     644     1936      `
+/65             0           0     0     644     4340      `
+/90             0           0     0     644     8156      `
+/117            0           0     0     644     9528      `
+/134            0           0     0     644     8044      `
+/159            0           0     0     644     5052      `
+/185            0           0     0     644     18920     `
+/208            0           0     0     644     4860      `
+/232            0           0     0     644     5920      `
+/260            0           0     0     644     11532     `
+/280            0           0     0     644     4164      `
+/305            0           0     0     644     3240      `
+/329            0           0     0     644     32072     `
+/349            0           0     0     644     16520     `
+/369            0           0     0     644     9056      `
+/390            0           0     0     644     8728      `
+/412            0           0     0     644     21704     `
+/433            0           0     0     644     4868      `
+/453            0           0     0     644     8060      `
+/476            0           0     0     644     45080     `
+/496            0           0     0     644     6588      `
+/518            0           0     0     644     2368      `
+/543            0           0     0     644     5436      `
+/569            0           0     0     644     4088      `
+/595            0           0     0     644     3732      `
+/619            0           0     0     644     5428      `
+/645            0           0     0     644     4152      `
+/671            0           0     0     644     3708      `
+/695            0           0     0     644     3720      `
+/721            0           0     0     644     5568      `
+/746            0           0     0     644     22324     `
+/778            0           0     0     644     11656     `
+/800            0           0     0     644     11528     `
+/821            0           0     0     644     4068      `
+/852            0           0     0     644     6256      `
+/883            0           0     0     644     40544     `
+/915            0           0     0     644     10192     `
+/946            0           0     0     644     14876     `
+/976            0           0     0     644     18244     `
+/998            0           0     0     644     15280     `
+/1015          /0           0     0     644     11668     `
+/1042           0           0     0     644     3896      `
+/1075           0           0     0     644     32716     `
+/1097           0           0     0     644     11732     `
+/1119           0           0     0     644     48904     `
+/1145           0           0     0     644     51252     `
+/1170           0           0     0     644     56352     `
+/1198           0           0     0     644     15708     `
+/1213           0           0     0     644     29728     `
+/1228           0           0     0     644     1900      `
+/1246           0           0     0     644     2468      `
+/1259           0           0     0     644     7112      `
+/1280           0           0     0     644     2152      `

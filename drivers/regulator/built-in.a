@@ -1,0 +1,40 @@
+!<thin>
+//                                              336       `
+core.o/
+dummy.o/
+fixed-helper.o/
+helpers.o/
+devres.o/
+of_regulator.o/
+fixed.o/
+anatop-regulator.o/
+da9052-regulator.o/
+da9062-regulator.o/
+da9063-regulator.o/
+gpio-regulator.o/
+max17135-regulator.o/
+mc13783-regulator.o/
+mc13892-regulator.o/
+mc13xxx-regulator-core.o/
+pf1550-regulator-rpmsg.o/
+pfuze100-regulator.o/
+rn5t618-regulator.o/
+/0              0           0     0     644     99320     `
+/8              0           0     0     644     4064      `
+/17             0           0     0     644     1840      `
+/33             0           0     0     644     21712     `
+/44             0           0     0     644     12628     `
+/54             0           0     0     644     12240     `
+/70             0           0     0     644     7556      `
+/79             0           0     0     644     10392     `
+/99             0           0     0     644     14936     `
+/119            0           0     0     644     15004     `
+/139            0           0     0     644     18448     `
+/159            0           0     0     644     8464      `
+/177            0           0     0     644     16536     `
+/199            0           0     0     644     16372     `
+/220            0           0     0     644     15772     `
+/241            0           0     0     644     7656      `
+/267            0           0     0     644     12684     `
+/293            0           0     0     644     29008     `
+/315            0           0     0     644     14560     `
