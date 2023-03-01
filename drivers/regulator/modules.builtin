@@ -1,0 +1,13 @@
+drivers/regulator/fixed.ko
+drivers/regulator/anatop-regulator.ko
+drivers/regulator/da9052-regulator.ko
+drivers/regulator/da9062-regulator.ko
+drivers/regulator/da9063-regulator.ko
+drivers/regulator/gpio-regulator.ko
+drivers/regulator/max17135-regulator.ko
+drivers/regulator/mc13783-regulator.ko
+drivers/regulator/mc13892-regulator.ko
+drivers/regulator/mc13xxx-regulator-core.ko
+drivers/regulator/pf1550-regulator-rpmsg.ko
+drivers/regulator/pfuze100-regulator.ko
+drivers/regulator/rn5t618-regulator.ko

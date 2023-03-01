@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/coda/imx-vdoa.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/platform/coda/imx-vdoa.ko drivers/media/platform/coda/imx-vdoa.o drivers/media/platform/coda/imx-vdoa.mod.o;  true

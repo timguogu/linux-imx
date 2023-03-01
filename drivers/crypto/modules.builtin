@@ -1,0 +1,9 @@
+drivers/crypto/mxs-dcp.ko
+drivers/crypto/sahara.ko
+drivers/crypto/caam/error.ko
+drivers/crypto/caam/caam.ko
+drivers/crypto/caam/caam_jr.ko
+drivers/crypto/caam/caamalg_desc.ko
+drivers/crypto/caam/caamhash_desc.ko
+drivers/crypto/caam/caamkeyblob_desc.ko
+drivers/crypto/caam/secvio.ko

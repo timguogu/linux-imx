@@ -1,0 +1,1 @@
+cmd_drivers/crypto/virtio/virtio_crypto.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/crypto/virtio/virtio_crypto.ko drivers/crypto/virtio/virtio_crypto.o drivers/crypto/virtio/virtio_crypto.mod.o;  true

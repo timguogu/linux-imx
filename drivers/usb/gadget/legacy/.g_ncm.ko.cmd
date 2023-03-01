@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_ncm.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/gadget/legacy/g_ncm.ko drivers/usb/gadget/legacy/g_ncm.o drivers/usb/gadget/legacy/g_ncm.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.ko drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.o drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.mod.o;  true

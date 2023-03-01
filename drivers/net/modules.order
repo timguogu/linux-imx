@@ -1,0 +1,13 @@
+drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko
+drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko
+drivers/net/wireless/nxp/mxm_wifiex/wlan_src/mlan.ko
+drivers/net/wireless/nxp/mxm_wifiex/wlan_src/moal.ko
+drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.ko
+drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.ko
+drivers/net/wireless/ti/wlcore/wlcore.ko
+drivers/net/wireless/ti/wlcore/wlcore_sdio.ko
+drivers/net/wireless/ti/wl12xx/wl12xx.ko
+drivers/net/wireless/ti/wl18xx/wl18xx.ko
+drivers/net/usb/pegasus.ko
+drivers/net/usb/rtl8150.ko
+drivers/net/usb/cdc_eem.ko

@@ -1,0 +1,4 @@
+drivers/media/platform/imx-pxp.ko
+drivers/media/platform/video-mux.ko
+drivers/media/platform/mxc/output/mxc_vout.ko
+drivers/media/platform/mxc/output/mxc_pxp_v4l2.ko

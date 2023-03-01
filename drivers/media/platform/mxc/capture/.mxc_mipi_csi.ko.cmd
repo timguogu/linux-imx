@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/mxc/capture/mxc_mipi_csi.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/platform/mxc/capture/mxc_mipi_csi.ko drivers/media/platform/mxc/capture/mxc_mipi_csi.o drivers/media/platform/mxc/capture/mxc_mipi_csi.mod.o;  true

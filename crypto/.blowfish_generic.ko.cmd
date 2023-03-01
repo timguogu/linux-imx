@@ -1,0 +1,1 @@
+cmd_crypto/blowfish_generic.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o crypto/blowfish_generic.ko crypto/blowfish_generic.o crypto/blowfish_generic.mod.o;  true

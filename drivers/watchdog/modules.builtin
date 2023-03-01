@@ -1,0 +1,5 @@
+drivers/watchdog/watchdog.ko
+drivers/watchdog/rn5t618_wdt.ko
+drivers/watchdog/imx2_wdt.ko
+drivers/watchdog/imx7ulp_wdt.ko
+drivers/watchdog/da9062_wdt.ko

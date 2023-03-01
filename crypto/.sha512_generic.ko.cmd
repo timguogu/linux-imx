@@ -1,0 +1,1 @@
+cmd_crypto/sha512_generic.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o crypto/sha512_generic.ko crypto/sha512_generic.o crypto/sha512_generic.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/mxc/capture/ov5640_camera_mipi_int.o := arm-none-linux-gnueabihf-ld  -EL    -r -o drivers/media/platform/mxc/capture/ov5640_camera_mipi_int.o drivers/media/platform/mxc/capture/ov5640_mipi.o

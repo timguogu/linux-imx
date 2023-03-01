@@ -1,0 +1,7 @@
+drivers/hwmon/hwmon.ko
+drivers/hwmon/gpio-fan.ko
+drivers/hwmon/iio_hwmon.ko
+drivers/hwmon/max17135-hwmon.ko
+drivers/hwmon/mc13783-adc.ko
+drivers/hwmon/mag3110.ko
+drivers/hwmon/mxc_mma8451.ko

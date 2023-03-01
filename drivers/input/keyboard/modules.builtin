@@ -1,0 +1,5 @@
+drivers/input/keyboard/atkbd.ko
+drivers/input/keyboard/gpio_keys.ko
+drivers/input/keyboard/imx_keypad.ko
+drivers/input/keyboard/rpmsg-keys.ko
+drivers/input/keyboard/snvs_pwrkey.ko

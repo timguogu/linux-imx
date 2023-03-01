@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/qt1010.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/tuners/qt1010.ko drivers/media/tuners/qt1010.o drivers/media/tuners/qt1010.mod.o;  true

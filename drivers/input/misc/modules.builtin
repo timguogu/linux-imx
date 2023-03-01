@@ -1,0 +1,6 @@
+drivers/input/misc/mma8450.ko
+drivers/input/misc/mpl3115.ko
+drivers/input/misc/fxls8471.ko
+drivers/input/misc/fxls8471_i2c.ko
+drivers/input/misc/isl29023.ko
+drivers/input/misc/rpmsg_input.ko

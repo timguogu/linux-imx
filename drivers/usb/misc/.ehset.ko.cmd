@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/ehset.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/misc/ehset.ko drivers/usb/misc/ehset.o drivers/usb/misc/ehset.mod.o;  true

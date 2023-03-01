@@ -1,0 +1,9 @@
+drivers/spi/spidev.ko
+drivers/spi/spi-bitbang.ko
+drivers/spi/spi-fsl-dspi.ko
+drivers/spi/spi-fsl-lpspi.ko
+drivers/spi/spi-fsl-qspi.ko
+drivers/spi/spi-gpio.ko
+drivers/spi/spi-imx.ko
+drivers/spi/spi-slave-time.ko
+drivers/spi/spi-slave-system-control.ko

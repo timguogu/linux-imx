@@ -1,0 +1,11 @@
+drivers/rtc/rtc-da9063.ko
+drivers/rtc/rtc-ds1307.ko
+drivers/rtc/rtc-imx-rpmsg.ko
+drivers/rtc/rtc-isl1208.ko
+drivers/rtc/rtc-m41t80.ko
+drivers/rtc/rtc-mc13xxx.ko
+drivers/rtc/rtc-mxc.ko
+drivers/rtc/rtc-mxc_v2.ko
+drivers/rtc/rtc-pcf8523.ko
+drivers/rtc/rtc-pcf8563.ko
+drivers/rtc/rtc-snvs.ko

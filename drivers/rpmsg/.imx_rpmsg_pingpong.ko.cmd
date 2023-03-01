@@ -1,0 +1,1 @@
+cmd_drivers/rpmsg/imx_rpmsg_pingpong.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/rpmsg/imx_rpmsg_pingpong.ko drivers/rpmsg/imx_rpmsg_pingpong.o drivers/rpmsg/imx_rpmsg_pingpong.mod.o;  true

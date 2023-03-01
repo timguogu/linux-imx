@@ -1,0 +1,1 @@
+cmd_net/sunrpc/auth_gss/rpcsec_gss_krb5.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/sunrpc/auth_gss/rpcsec_gss_krb5.ko net/sunrpc/auth_gss/rpcsec_gss_krb5.o net/sunrpc/auth_gss/rpcsec_gss_krb5.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/mt20xx.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/tuners/mt20xx.ko drivers/media/tuners/mt20xx.o drivers/media/tuners/mt20xx.mod.o;  true

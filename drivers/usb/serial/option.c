@@ -573,6 +573,7 @@ static void option_instat_callback(struct urb *urb);
 
 
 static const struct usb_device_id option_ids[] = {
+	{ USB_DEVICE(0x1199, 0x68A2) },
 	{ USB_DEVICE(OPTION_VENDOR_ID, OPTION_PRODUCT_COLT) },
 	{ USB_DEVICE(OPTION_VENDOR_ID, OPTION_PRODUCT_RICOLA) },
 	{ USB_DEVICE(OPTION_VENDOR_ID, OPTION_PRODUCT_RICOLA_LIGHT) },
@@ -2083,6 +2084,10 @@ static int option_probe(struct usb_serial *serial,
 	if (iface_desc->bInterfaceClass == USB_CLASS_MASS_STORAGE)
 		return -ENODEV;
 
+	if (serial->dev->descriptor.idVendor==0x1199&&
+		serial->dev->descriptor.idProduct==0x68A2&&
+		serial->interface->cur_altsetting->desc.bInterfaceNumber>=4)
+		return -ENODEV;
 	/*
 	 * Don't bind reserved interfaces (like network ones) which often have
 	 * the same class/subclass/protocol as the serial interfaces.  Look at

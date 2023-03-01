@@ -1,0 +1,4 @@
+drivers/input/touchscreen/of_touchscreen.ko
+drivers/input/touchscreen/imx6ul_tsc.ko
+drivers/input/touchscreen/gt9xx/gt9xx_update.ko
+drivers/input/touchscreen/gt9xx/goodix_tool.ko

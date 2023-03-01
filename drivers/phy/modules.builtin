@@ -1,0 +1,3 @@
+drivers/phy/phy-mixel-lvds.ko
+drivers/phy/phy-mixel-lvds-combo.ko
+drivers/phy/freescale/phy-fsl-imx8-pcie.ko

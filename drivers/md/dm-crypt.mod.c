@@ -1,0 +1,155 @@
+#include <linux/build-salt.h>
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(.gnu.linkonce.this_module) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section(__versions) = {
+	{ 0x6772acb2, "module_layout" },
+	{ 0xcaa28041, "dm_unregister_target" },
+	{ 0x83f641d1, "dm_register_target" },
+	{ 0x32ac6b6a, "dm_accept_partial_bio" },
+	{ 0xc60d0620, "__num_online_cpus" },
+	{ 0x53303def, "kthread_create_on_node" },
+	{ 0xdf9208c0, "alloc_workqueue" },
+	{ 0x56fdc33f, "dm_get_device" },
+	{ 0xc66d919f, "dm_table_get_mode" },
+	{ 0xe346f67a, "__mutex_init" },
+	{ 0x3a04a725, "bioset_init" },
+	{ 0x85df9b6c, "strsep" },
+	{ 0xc4657dc8, "mempool_init" },
+	{ 0x6a037cf1, "mempool_kfree" },
+	{ 0xd35a6d31, "mempool_kmalloc" },
+	{ 0x5eb24829, "dm_shift_arg" },
+	{ 0xc7d094b5, "dm_read_arg_group" },
+	{ 0x6ecdb792, "__percpu_counter_init" },
+	{ 0xfdf637af, "dm_table_device_name" },
+	{ 0xf7802486, "__aeabi_uidivmod" },
+	{ 0x4645ba67, "crypto_alloc_ahash" },
+	{ 0x328a05f1, "strncpy" },
+	{ 0xc358aaf8, "snprintf" },
+	{ 0xe2d5255a, "strcmp" },
+	{ 0x9f984513, "strrchr" },
+	{ 0x10a131ff, "crypto_alloc_skcipher" },
+	{ 0x904ddd74, "crypto_req_done" },
+	{ 0xa9487fae, "sg_init_one" },
+	{ 0xdb881102, "page_address" },
+	{ 0x9bec39e5, "empty_zero_page" },
+	{ 0x2d6fcc06, "__kmalloc" },
+	{ 0xc271c3be, "mutex_lock" },
+	{ 0x67ea780, "mutex_unlock" },
+	{ 0x8d404617, "bio_add_page" },
+	{ 0x9385a4ac, "bio_alloc_bioset" },
+	{ 0x5bbe49f4, "__init_waitqueue_head" },
+	{ 0xd8410611, "mempool_alloc" },
+	{ 0xb561ac5b, "wait_for_completion" },
+	{ 0xb8b0cf29, "crypto_aead_encrypt" },
+	{ 0x3b47d855, "crypto_skcipher_decrypt" },
+	{ 0x2c147c34, "crypto_skcipher_encrypt" },
+	{ 0xee45b3f8, "crypto_aead_decrypt" },
+	{ 0xee4d1bfd, "sg_init_table" },
+	{ 0x7604f862, "mem_map" },
+	{ 0xd5cd8b01, "crypto_shash_final" },
+	{ 0x7b8d7596, "crypto_alloc_shash" },
+	{ 0xa3f12f69, "__crypto_xor" },
+	{ 0xed93f29e, "__kunmap_atomic" },
+	{ 0x9165aef3, "kmap_atomic" },
+	{ 0xc3ea12ad, "bio_devname" },
+	{ 0xe6c12171, "complete" },
+	{ 0xee43fd9b, "___ratelimit" },
+	{ 0x86eaa789, "wake_up_process" },
+	{ 0x39a12ca7, "_raw_spin_unlock_irqrestore" },
+	{ 0xa5526619, "rb_insert_color" },
+	{ 0x5f849a69, "_raw_spin_lock_irqsave" },
+	{ 0xb2d48a2e, "queue_work_on" },
+	{ 0xf69100cc, "crypto_shash_update" },
+	{ 0xb2235012, "crypto_alloc_aead" },
+	{ 0x4ebe3883, "kmem_cache_alloc" },
+	{ 0x898c397a, "kmalloc_caches" },
+	{ 0xf176c663, "__alloc_pages_nodemask" },
+	{ 0xda6fc0b3, "__percpu_counter_compare" },
+	{ 0x993b03df, "percpu_counter_add_batch" },
+	{ 0x5240ee7, "percpu_counter_batch" },
+	{ 0x2279b620, "__free_pages" },
+	{ 0xf2215f74, "blk_finish_plug" },
+	{ 0x4d9b652b, "rb_erase" },
+	{ 0xece784c2, "rb_first" },
+	{ 0x7a9b37e8, "blk_start_plug" },
+	{ 0xb3f7646e, "kthread_should_stop" },
+	{ 0x59bda5f9, "_raw_spin_unlock_irq" },
+	{ 0x2da81bff, "_raw_spin_lock_irq" },
+	{ 0x1000e51, "schedule" },
+	{ 0x2cfde9a2, "warn_slowpath_fmt" },
+	{ 0x12585e08, "_raw_spin_unlock" },
+	{ 0x32430023, "_totalhigh_pages" },
+	{ 0x8039b3fd, "_totalram_pages" },
+	{ 0xdb9ca3c5, "_raw_spin_lock" },
+	{ 0xa5a42707, "dm_put_device" },
+	{ 0x44c9dc6c, "percpu_counter_destroy" },
+	{ 0xe2274a1c, "__percpu_counter_sum" },
+	{ 0xcb8c753b, "mempool_exit" },
+	{ 0x6d78abf5, "bioset_exit" },
+	{ 0x8c03d20c, "destroy_workqueue" },
+	{ 0x2a892a29, "kthread_stop" },
+	{ 0x98e8d5a1, "crypto_destroy_tfm" },
+	{ 0xf1ec5c47, "bio_put" },
+	{ 0xde4c7f8d, "generic_make_request" },
+	{ 0xc2e11001, "bio_clone_fast" },
+	{ 0x2263b2de, "bio_endio" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x794765d1, "mempool_free" },
+	{ 0xa2e7f851, "dm_per_bio_data" },
+	{ 0x314b20c8, "scnprintf" },
+	{ 0x79aa04a2, "get_random_bytes" },
+	{ 0xaafdc258, "strcasecmp" },
+	{ 0x1e8094d9, "key_put" },
+	{ 0xa7b3181c, "up_read" },
+	{ 0xfb1d7438, "down_read" },
+	{ 0x60e3c98e, "request_key_tag" },
+	{ 0x7de40e1b, "key_type_logon" },
+	{ 0xf64913b8, "key_type_user" },
+	{ 0x2d39b0a7, "kstrdup" },
+	{ 0x84b183ae, "strncmp" },
+	{ 0x11089ac7, "_ctype" },
+	{ 0x6f83fba8, "hex2bin" },
+	{ 0x7a4497db, "kzfree" },
+	{ 0x3c80e980, "crypto_aead_setkey" },
+	{ 0xe707d823, "__aeabi_uidiv" },
+	{ 0x9d669763, "memcpy" },
+	{ 0x676bbc0f, "_set_bit" },
+	{ 0x49ebacbd, "_clear_bit" },
+	{ 0xdecd0b29, "__stack_chk_fail" },
+	{ 0xbcab6ee6, "sscanf" },
+	{ 0x349cba85, "strchr" },
+	{ 0x97255bdf, "strlen" },
+	{ 0x8f678b07, "__stack_chk_guard" },
+	{ 0x5f754e5a, "memset" },
+	{ 0xc5850110, "printk" },
+	{ 0xefd6cf06, "__aeabi_unwind_cpp_pr0" },
+};
+
+MODULE_INFO(depends, "dm-mod");
+
+
+MODULE_INFO(srcversion, "0F0B72C5AE2B0EADFEBFF64");

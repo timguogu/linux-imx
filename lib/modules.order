@@ -1,0 +1,3 @@
+lib/crc-itu-t.ko
+lib/crc7.ko
+lib/libcrc32c.ko

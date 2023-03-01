@@ -1,0 +1,3 @@
+drivers/nvmem/nvmem-imx-ocotp.ko
+drivers/nvmem/nvmem-vf610-ocotp.ko
+drivers/nvmem/nvmem_snvs_lpgpr.ko

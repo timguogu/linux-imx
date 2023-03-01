@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/mxc/capture/ipu_still.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/platform/mxc/capture/ipu_still.ko drivers/media/platform/mxc/capture/ipu_still.o drivers/media/platform/mxc/capture/ipu_still.mod.o;  true

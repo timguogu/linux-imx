@@ -1,0 +1,7 @@
+drivers/gpu/drm/drm_kms_helper.ko
+drivers/gpu/drm/drm.ko
+drivers/gpu/drm/drm_panel_orientation_quirks.ko
+drivers/gpu/drm/msm/msm.ko
+drivers/gpu/drm/panel/panel-lvds.ko
+drivers/gpu/drm/panel/panel-simple.ko
+drivers/gpu/drm/panel/panel-seiko-43wvf1g.ko

@@ -1,0 +1,4 @@
+drivers/bluetooth/hci_vhci.ko
+drivers/bluetooth/hci_uart.ko
+drivers/bluetooth/btmrvl.ko
+drivers/bluetooth/btmrvl_sdio.ko

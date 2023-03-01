@@ -1,0 +1,1 @@
+cmd_crypto/streebog_generic.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o crypto/streebog_generic.ko crypto/streebog_generic.o crypto/streebog_generic.mod.o;  true

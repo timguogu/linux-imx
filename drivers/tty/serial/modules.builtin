@@ -1,0 +1,4 @@
+drivers/tty/serial/serial_core.ko
+drivers/tty/serial/imx.ko
+drivers/tty/serial/fsl_lpuart.ko
+drivers/tty/serial/serial_mctrl_gpio.ko

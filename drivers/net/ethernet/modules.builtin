@@ -1,0 +1,6 @@
+drivers/net/ethernet/cirrus/cs89x0.ko
+drivers/net/ethernet/freescale/fec.ko
+drivers/net/ethernet/intel/e1000e/e1000e.ko
+drivers/net/ethernet/smsc/smc91x.ko
+drivers/net/ethernet/smsc/smc911x.ko
+drivers/net/ethernet/smsc/smsc911x.ko

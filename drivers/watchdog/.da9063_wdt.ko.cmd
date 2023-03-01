@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/da9063_wdt.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/watchdog/da9063_wdt.ko drivers/watchdog/da9063_wdt.o drivers/watchdog/da9063_wdt.mod.o;  true

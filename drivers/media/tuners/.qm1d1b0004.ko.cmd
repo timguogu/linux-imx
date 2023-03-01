@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/qm1d1b0004.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/tuners/qm1d1b0004.ko drivers/media/tuners/qm1d1b0004.o drivers/media/tuners/qm1d1b0004.mod.o;  true

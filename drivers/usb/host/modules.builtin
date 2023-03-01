@@ -1,0 +1,4 @@
+drivers/usb/host/ehci-hcd.ko
+drivers/usb/host/ehci-pci.ko
+drivers/usb/host/ehci-mxc.ko
+drivers/usb/host/fsl-mph-dr-of.ko

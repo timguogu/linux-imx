@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/ov5645.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/i2c/ov5645.ko drivers/media/i2c/ov5645.o drivers/media/i2c/ov5645.mod.o;  true

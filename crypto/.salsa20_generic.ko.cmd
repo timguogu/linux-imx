@@ -1,0 +1,1 @@
+cmd_crypto/salsa20_generic.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o crypto/salsa20_generic.ko crypto/salsa20_generic.o crypto/salsa20_generic.mod.o;  true

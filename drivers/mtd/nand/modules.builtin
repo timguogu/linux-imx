@@ -1,0 +1,6 @@
+drivers/mtd/nand/nandcore.ko
+drivers/mtd/nand/raw/nand.ko
+drivers/mtd/nand/raw/nand_ecc.ko
+drivers/mtd/nand/raw/mxc_nand.ko
+drivers/mtd/nand/raw/vf610_nfc.ko
+drivers/mtd/nand/raw/gpmi-nand/gpmi_nand.ko

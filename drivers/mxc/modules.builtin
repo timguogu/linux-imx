@@ -1,0 +1,8 @@
+drivers/mxc/gpu-viv/galcore.ko
+drivers/mxc/hdmi-cec/mxc_hdmi-cec.ko
+drivers/mxc/ipu3/prg.ko
+drivers/mxc/ipu3/pre.ko
+drivers/mxc/mipi/mxc_mipi_csi2.ko
+drivers/mxc/mlb/mxc_mlb.ko
+drivers/mxc/sim/imx_sim.ko
+drivers/mxc/vpu/mxc_vpu.ko

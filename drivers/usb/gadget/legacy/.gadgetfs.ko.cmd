@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/gadgetfs.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/gadget/legacy/gadgetfs.ko drivers/usb/gadget/legacy/gadgetfs.o drivers/usb/gadget/legacy/gadgetfs.mod.o;  true

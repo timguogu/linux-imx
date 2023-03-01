@@ -1,0 +1,1 @@
+cmd_drivers/input/evbug.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/input/evbug.ko drivers/input/evbug.o drivers/input/evbug.mod.o;  true

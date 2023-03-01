@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/msi001.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/tuners/msi001.ko drivers/media/tuners/msi001.o drivers/media/tuners/msi001.mod.o;  true

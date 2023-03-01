@@ -1,0 +1,1 @@
+cmd_drivers/siox/siox-bus-gpio.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/siox/siox-bus-gpio.ko drivers/siox/siox-bus-gpio.o drivers/siox/siox-bus-gpio.mod.o;  true

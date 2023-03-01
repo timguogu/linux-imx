@@ -1,0 +1,4 @@
+drivers/mmc/host/sdhci.ko
+drivers/mmc/host/sdhci-pltfm.ko
+drivers/mmc/host/sdhci-esdhc-imx.ko
+drivers/mmc/host/cqhci.ko

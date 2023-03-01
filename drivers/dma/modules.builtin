@@ -1,0 +1,4 @@
+drivers/dma/virt-dma.ko
+drivers/dma/fsl-edma.ko
+drivers/dma/fsl-edma-common.ko
+drivers/dma/imx-sdma.ko

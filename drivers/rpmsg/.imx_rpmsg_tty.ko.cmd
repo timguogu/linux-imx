@@ -1,0 +1,1 @@
+cmd_drivers/rpmsg/imx_rpmsg_tty.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/rpmsg/imx_rpmsg_tty.ko drivers/rpmsg/imx_rpmsg_tty.o drivers/rpmsg/imx_rpmsg_tty.mod.o;  true

@@ -1,0 +1,5 @@
+drivers/misc/fxos8700.ko
+drivers/misc/fxas2100x.ko
+drivers/misc/pci_endpoint_test.ko
+drivers/misc/eeprom/at24.ko
+drivers/misc/eeprom/at25.ko

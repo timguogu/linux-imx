@@ -1,0 +1,1 @@
+cmd_crypto/sm4_generic.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o crypto/sm4_generic.ko crypto/sm4_generic.o crypto/sm4_generic.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/siox/siox-core.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/siox/siox-core.ko drivers/siox/siox-core.o drivers/siox/siox-core.mod.o;  true

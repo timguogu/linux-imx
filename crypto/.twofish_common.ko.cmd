@@ -1,0 +1,1 @@
+cmd_crypto/twofish_common.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o crypto/twofish_common.ko crypto/twofish_common.o crypto/twofish_common.mod.o;  true

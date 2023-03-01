@@ -1,0 +1,1 @@
+cmd_crypto/camellia_generic.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o crypto/camellia_generic.ko crypto/camellia_generic.o crypto/camellia_generic.mod.o;  true

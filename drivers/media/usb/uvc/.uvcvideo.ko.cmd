@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/uvc/uvcvideo.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/usb/uvc/uvcvideo.ko drivers/media/usb/uvc/uvcvideo.o drivers/media/usb/uvc/uvcvideo.mod.o;  true
