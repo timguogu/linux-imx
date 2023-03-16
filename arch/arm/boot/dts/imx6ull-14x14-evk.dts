@@ -70,6 +70,7 @@
             gpios = <&gpio5 5 GPIO_ACTIVE_HIGH>;
             enable-active-high;
             regulator-boot-on;
+	    regulator-always-on;	
         };
 
         reg_gpio_wifi: regulator@2 {
@@ -79,6 +80,7 @@
             regulator-max-microvolt = <3300000>;
             gpios = <&gpio1 10 GPIO_ACTIVE_LOW>;
             regulator-boot-on;
+	    regulator-always-on;	
         };
 
     };

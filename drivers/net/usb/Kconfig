@@ -622,7 +622,9 @@ config USB_NET_AQC111
 	  This option adds support for Aquantia AQtion USB
 	  Ethernet adapters based on AQC111U/AQC112 chips.
 
-	  This driver should work with at least the following devices:
-	  * Aquantia AQtion USB to 5GbE
+	  This driver should work with at least the following devices:	
+	  * Aquantia AQtion USB to 5GbE.
+config USB_GOBI_NET
+	tristate "gobi USB Net driver for MC7700"  
 
 endif # USB_NET_DRIVERS

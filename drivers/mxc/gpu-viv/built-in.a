@@ -47,7 +47,7 @@ hal/security_v1/gc_hal_ta_hardware.o/
 hal/security_v1/gc_hal_ta_mmu.o/
 hal/security_v1/os/emulator/gc_hal_ta_emulator.o/
 
-/0              0           0     0     644     30000     `
+/0              0           0     0     644     30008     `
 /44             0           0     0     644     4320      `
 /87             0           0     0     644     1260      `
 /129            0           0     0     644     39632     `
